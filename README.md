@@ -8,6 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Docker setup
 docker build -t humteria/booking_hive_frn:latest .
+
 docker run --rm -d -p 80:80/tcp humteria/booking_hive_frn:latest
 
 
