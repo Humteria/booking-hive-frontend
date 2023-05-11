@@ -1,0 +1,11 @@
+version: '4.19'
+
+services:
+  bookinghive_frn:
+    image: bookinghive_frn
+    build: .
+    ports:
+      - '8000:4200'
+    volumes:
+      - "/app/node_modules"
+      - ".:/app"
