@@ -4,12 +4,7 @@
 This repository holds the frontend code for the [BookingHive Platform](ttps://github.com/Humteria/booking-hive)
 </div>
 
-
-# booking-hive-frontend
-🐝 Frontend for the BookingHive platform
-
-
-# BookingHiveFrn
+## docs
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
 
