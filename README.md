@@ -1,3 +1,10 @@
+<div align=center>
+    <h1>🐝 BookingHive frontend</h1>
+
+This repository holds the frontend code for the [BookingHive Platform](ttps://github.com/Humteria/booking-hive)
+</div>
+
+
 # booking-hive-frontend
 🐝 Frontend for the BookingHive platform
 
