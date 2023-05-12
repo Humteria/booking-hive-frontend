@@ -1,5 +1,6 @@
+![alt text](https://github.com/Humteria/booking-hive/blob/main/BookingHiveDocBanner.png?raw=true)
 <div align=center>
-    <h1>🐝 BookingHive frontend</h1>
+    <h1>🐝 frontend</h1>
 
 This repository holds the frontend code for the [BookingHive Platform](ttps://github.com/Humteria/booking-hive)
 </div>
