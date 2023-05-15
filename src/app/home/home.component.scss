@@ -1,86 +1,24 @@
-/* .main {
-  display: flex;
-  --s: 100px;
-  --m: 4px;
-  --f: calc(1.732 * var(--s) + 4 * var(--m) - 1px);
-}
-
-.container {
-  font-size: 0;
-}
-
-.container div {
-  width: var(--s);
-  margin: var(--m);
-  height: calc(var(--s) * 1.1547);
-  display: inline-block;
-  font-size: initial;
-  clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
-  background-color: #ffb30e;
-  opacity: 0.5;
-  margin-bottom: calc(var(--m) - var(--s) * 0.2885);
-}
-.container div:nth-child(2) {
-  background-color: grey;
-}
-.container::before {
-  content: "";
-  width: calc(var(--s) / 2 + var(--m));
-  float: left;
-  height: 120%;
-  shape-outside: repeating-linear-gradient(
-    #0000 0 calc(var(--f) - 3px),
-    #000 0 var(--f)
-  );
-}
- */
 .main {
-  display: flex;
-  --s: 100px;
-  --m: 4px;
-  --f: calc(1.732 * var(--s) + 4 * var(--m) - 1px);
-  opacity: 0.1;
 }
-
-.container {
-  font-size: 0;
-}
-.container div {
-  position: relative;
-  width: 190px;
-  height: 109.7px;
-  background-color: #ede8e2;
-  margin: 54.85px 0;
-  border-left: solid 10px #ffb30e;
-  border-right: solid 10px #ffb30e;
+.hex {
   display: inline-block;
-  margin-right: 10px;
-}
-.container div:before,
-.container div:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  width: 134.35px;
-  height: 134.35px;
-  -webkit-transform: scaleY(0.5774) rotate(-45deg);
-  -ms-transform: scaleY(0.5774) rotate(-45deg);
-  transform: scaleY(0.5774) rotate(-45deg);
-  background-color: inherit;
-  left: 17.8249px;
-}
-.container div:before {
-  top: -67.1751px;
-  border-top: solid 14.1421px #ffb30e;
-  border-right: solid 14.1421px #ffb30e;
-}
-.container div:after {
-  bottom: -67.1751px;
-  border-bottom: solid 14.1421px #ffb30e;
-  border-left: solid 14.1421px #ffb30e;
-}
-*,
-*:before,
-*:after {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background: red;
   box-sizing: border-box;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    margin-right: 10px;
+}
+.hex div {
+  background-color: grey;
+  position: absolute;
+  top: 2px; /* equal to border thickness */
+  left: 2px; /* equal to border thickness */
+  width: 146px; /* container height - (border thickness * 2) */
+  height: 146px; /* container height - (border thickness * 2) */
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
 }
