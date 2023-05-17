@@ -1,0 +1,59 @@
+<<<<<<< Updated upstream
+=======
+.homepage {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  .title {
+    z-index: 2;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+  }
+  .tooltip {
+    float:right; 
+    display:inline;  
+    margin-top: 3rem;
+    margin-right: 4rem;
+    .ttbutton {
+      margin-left: 4rem;
+      padding:0;
+      color: #19180C;
+      border: none;
+      background:none;
+      font-size: 1.5rem;
+    }
+    .ttbutton:first-child {
+      margin-left: 0rem;
+    }
+  }
+  .seemore {
+    position: absolute;
+    top: 90vh;
+    left: 50vw;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    .ttbutton {
+      background: none;
+      border-style: solid;
+      border-color: #19180C;
+      padding:1.5rem 7rem 1.5rem 7rem;
+      border-width: 0.25rem;
+      border-radius: 2.5rem;
+      font-size: 1rem;
+
+    }
+  }
+}
+
+.ttbutton {
+  font-weight: bold;
+  color: #19180C;
+}
+.ttbutton:hover {
+  cursor: pointer;
+}
